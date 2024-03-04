@@ -1,11 +1,11 @@
 {
-	"name": "shock95x/auctionhouse",
+	"name": "shock95/auctionhouse",
 	"description": "Feature-packed AuctionHouse plugin for PocketMine-MP",
 	"type": "project",
 	"license": "GPL-3.0-or-later",
 	"authors": [
 		{
-			"name": "Shock95x"
+			"name": "Shock95"
 		}
 	],
 	"require": {
