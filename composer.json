@@ -1,64 +1,39 @@
 {
-	"name": "shock95/auctionhouse",
+	"name": "shock95x/auctionhouse",
 	"description": "Feature-packed AuctionHouse plugin for PocketMine-MP",
-	"type": "pocketmine-plugin",
+	"type": "project",
 	"license": "GPL-3.0-or-later",
 	"authors": [
 		{
-			"name": "Shock95"
+			"name": "Shock95x"
 		}
 	],
 	"require": {
-<<<<<<< HEAD
 		"pocketmine/pocketmine-mp": "^5.0",
 		"ext-json": "*",
 		"sof3/await-generator": "^3.6.1",
-		"poggit/libasynql": "*",
+		"sof3/libasynql": "*",
 		"muqsit/invmenu": "4.6.5",
-		"ifera-mc/updatenotifier": "*",
-		"cortexpe/commando": "dev-pm5"
-=======
-		"pocketmine/pocketmine-mp": "^5.0.0",
-		"sof3/await-generator": "^3.6",
-		"sof3/libasynql": "^4.2",
-		"muqsit/invmenu": "^4.6.5",
 		"ifera-mc/update-notifier": "dev-master",
-		"muqsit/simple-packet-handler": "dev-pm5",
-		"cortexpe/commando": "dev-master"
->>>>>>> df31e54ab8881cc0c703ecac3a0b66b4b75fb550
+		"cortexpe/commando": "dev-pm5"
 	},
-	"require-dev": {
-		"sof3/pharynx": "^0.3.4"
+	"autoload": {
+		"psr-4": {
+			"": "./src"
+		}
 	},
 	"repositories": [
 		{
 			"type": "git",
-			"url": "https://github.com/Aboshxm2/Commando.git"
+			"url":  "https://github.com/poggit/libasynql.git"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/JinodkDevTeam/Commando.git"
 		},
 		{
 			"type": "git",
 			"url": "https://github.com/ifera-mc/UpdateNotifier.git"
 		}
-<<<<<<< HEAD
-	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url":  "git@github.com:JinodkDevTeam/Commando"
-		},
-		{
-			"type": "vcs",
-			"url":  "git@github.com:poggit/libasynql"
-		},
-		{
-			"type": "vcs",
-			"url":  "git@github.com:ifera-mc/updatenotifier"
-		}
 	]
-=======
-	],
-	"autoload": {
-		"classmap": ["src"]
-	}
->>>>>>> df31e54ab8881cc0c703ecac3a0b66b4b75fb550
 }
